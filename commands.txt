@@ -1,0 +1,18 @@
+get-host
+
+Name             : ConsoleHost
+Version          : 5.1.22000.832
+InstanceId       : 595bea7f-eae9-4836-bb1b-38b0e1f47e81
+UI               : System.Management.Automation.Internal.Host.InternalHostUserInterface
+CurrentCulture   : en-IN
+CurrentUICulture : en-US
+PrivateData      : Microsoft.PowerShell.ConsoleHost+ConsoleColorProxy
+DebuggerEnabled  : True
+IsRunspacePushed : False
+Runspace         : System.Management.Automation.Runspaces.LocalRunspace
+
+update-get
+
+get-command
+
+(get-command).count
