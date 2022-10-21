@@ -8,3 +8,5 @@ msg %username% Your message here
 PYTHON:::
 import win32api
 win32api.MessageBox(0, 'hello', 'title')
+win32api.MessageBox(0, 'Successfully uploaded to s3 bucket. Would you like to deploy?', 'S3 Upload status', 0x00000004)
+link to refer the 0x0 codes and etc::: https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox
