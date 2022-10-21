@@ -4,3 +4,7 @@ PowerShell -Command "Add-Type -AssemblyName PresentationFramework;[System.Window
 
 CMD:::
 msg %username% Your message here
+
+PYTHON:::
+import win32api
+win32api.MessageBox(0, 'hello', 'title')
